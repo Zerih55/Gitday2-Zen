@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.bg {
+    background-color: #f2b6aa;
+
+    /* Gradient Background*/
+}
+
+.fontsample{
+    font-family: 'Lucida Sans',sans-serif;
+    font-family: "Merriweather", serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: teal;
+    color: mintcream;
+}
+
+.text-sample {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    font-size: 18px;
+}
+
+.spacing-sample {
+    letter-spacing: 5px;
+    line-height: 5;
+    background-color: palegoldenrod;
+    text-indent: 40px;
+}
+/*text-shadow
+    x - coordinate
+    y - coordinate
+    z - Blur radius
+    color of the shadow
+*/
+
+#shadow-sample {
+    text-shadow: 10px 3px 5px rgb(255, 0, 0);
+}
+
+/*content box model*/
+.box-model{
+    background-color: lavenderblush;
+    height: 100px;
+    width: 100px;
+
+    padding: 10px 20px;
+    padding-top: 30px;
+    border-color: crimson;
+    border-width: 5px;
+    border-style: double;
+    border-radius: 20px 50px 40px 10px;
+    border: 10px inset orange;
+    margin-right: 18px;
+
+}
+
+/*Padding Value
+    1 Value = Applied to all side
+    2 Value = Top and Bottom side || Left and right side
+    3 Value = Top side || Left and right side || Bottom side
+    4 Value = Top side || Right Side || Bottom Side || Left Side
+
+    Example - XX px,XX px,XX px,XX px
+*/

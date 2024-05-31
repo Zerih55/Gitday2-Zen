@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html forms</title>
+</head>
+<body>
+    <form method="post">
+        <h1>Form Example</h1>
+        <!-- usage of form elements: Input, Textarea, Button-->
+        <label for="name">name: </label>
+        <input type="text" id="name" name="name" required> <br>
+        <label for="Age">Age: </label>
+        <input type="number" id="Age" name="age" required> <br>
+
+        <label for="email">Email: </label>
+        <input type="Email" id="Email" name="Email" required> <br>
+
+        <label for="message">Message: </label>
+        <Textarea name="Message" id="message" cols="30" rows="10"></Textarea> <br>
+    
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender">
+            <option value="male">male</option>
+            <option value="Female">female</option>
+            <option value="other">other</option>
+        </select>
+
+        <!-- Radio buttons and checkboxes provides option for users to make selections-->
+        <input type="radio" id="option1" name="options" value=option1>
+        <label for="option1">Option 1</label>
+        <input type="radio" id="option1" name="options" value=option1>
+        <label for="option2">option 2</label>
+        <br>
+        <input type="checkbox" id="check1" name="check1" value=check1>
+        <label for="check1">check1</label>
+        <input type="checkbox" id="check2" name="check2" value=check2>
+        <label for="check2">check2</label>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

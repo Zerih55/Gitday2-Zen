@@ -1,0 +1,65 @@
+/*Universal Selector*/
+*{
+    color: pink;
+}
+/*Element Selector*/
+
+h3 {color: red;}
+
+/*class selector*/
+.parag1 {
+    color: indigo;
+}
+
+/*ID selector*/
+#parag2 {
+    color:cyan;
+}
+/*Attribute Selector*/
+[href] {
+    color: yellow;
+    background-color: brown;
+}
+
+/* Targetting an <a> with an [href[ attribute*/
+a[href] {
+    color: plum;
+    background-color: darkblue;
+}
+
+/*Targetting elements with an [href] attribute that is exactly*/
+a[href] {
+    color: tomato;
+    background-color: darkslategray;
+}
+
+/*Grouping Selector*/
+.heading1, h2, #heading3 {
+    font-size: 20px;
+    color: purple;
+    background-color: lightcyan;
+    
+}
+
+/*  Pseudo-class */
+h2:hover {
+    background-color: navy;
+    color: white;
+}
+
+.pseudo:visited {
+    background-color: beige;
+}
+
+/* Pseudo-element */
+#heading3::before {
+    content: "Placed before h3 : "
+}
+
+#heading3::after {
+    content: " : Placed after h3"
+}
+
+#heading3::first-letter {
+    color: red;
+}

@@ -1,0 +1,54 @@
+/* Flexbox CSS */
+.flexItem {
+    width: 200px;
+    margin: 10px;
+    border: 2px black solid;
+    background-color: lightblue;
+    text-align: center;
+    justify-content: center;
+}
+.cross-axis{
+    position: absolute;
+    right: 50%;
+    height: 1080px;
+    width: 3px;
+    background-color: red;
+}
+.main-axis{
+    position: absolute;
+    top: 50%;
+    height: 3px;
+    width: 2160px;
+    background-color: blue;
+}
+
+.container {
+    height:300px;
+    background-color: yellowgreen ;
+    position: relative;
+    overflow: hidden;
+}
+
+.flexContainer{
+    display: flex;
+    justify-content: center;
+    /* flex-start, flex-end, space-between, space-around */
+}
+
+.flexContainer{
+    display: flex;
+    align-items: stretch;
+
+}
+.flexItem1{
+      flex-grow:8;
+}
+
+.flexItem2{
+    /* flex-grow:2; */
+    flex-shrink: 10;
+}
+.flexItem3{
+    /* flex-grow:2; */
+    flex-basis: 300px;
+}

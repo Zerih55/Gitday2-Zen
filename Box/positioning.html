@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positioning Property</title>
+
+    <style>
+        .static{
+            background-color: lightcoral;
+            width: 200px;
+            margin-bottom: 10px;
+            position: static;
+        }
+
+        .relative {
+            background-color: lightgray;
+            padding: 10px;
+            margin-right: 20px;
+
+
+            /*
+            Positioning Properties:display: 
+                top, left, right, bottom
+
+            */
+            top: 20px;
+            left: 20px;
+        }
+
+        .absolute{
+            background-color: lightsalmon;
+            width: 150px;
+            padding: 10px;
+            position: absolute;
+            top: 10px;
+            left: 100px;
+        }
+
+        .container{
+            margin: 10px;
+            height: 500px;
+            width: 300px;
+            top: 50px;
+            display: block;
+        }
+
+        .fixed{
+            background-color: lightskyblue;
+            width: 200px;
+            padding: 20px;
+            position: fixed;
+            top: 20px;
+            right: 120px;
+            text-align: center;
+            border: 1px double red;
+        }
+
+        .sticky {
+            background-color: lightgreen;
+            padding: 10px;
+            width: 200px;
+            position: sticky;
+            top: 150px;
+            left: 40px;
+        }
+
+        /*
+         Positioning Properties:display: 
+            top, left, right, bottom
+
+        */
+
+    </style>
+
+  </head>
+  <body>
+    <h1>Position Property</h1>
+    <div class="container">
+        <div class="static">Static Position</div>
+        <div class="relative">Relative Position</div>
+        <div class="absolute">Absolute</div>
+        <div class="fixed">Fixed Position</div>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi asperiores culpa eaque quam quae itaque beatae voluptatem id sapiente soluta officia, facere repellat cum repudiandae ullam? Minus, pariatur repellat aspernatur magni ratione cupiditate hic velit quia nihil, unde reiciendis itaque maiores molestias excepturi animi, adipisci amet odit eum molestiae modi?</p> <br>
+
+        <div class="sticky">Sticky Position</div>
+    </div>
+    
+  </body>
+</html>
